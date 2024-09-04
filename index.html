@@ -2,11 +2,13 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-	<head>
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+
+<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Mis 15 años  &mdash; XAMIRA URBANO OSORIO</title>
+	<title>Mis 15 años &mdash; XAMIRA URBANO OSORIO</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="DURBANO" />
 	<meta name="keywords" content="Mis 15 años Xamira Urbano Osorio" />
@@ -14,22 +16,26 @@
 
 
 
-  	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
+	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content="" />
+	<meta property="og:image" content="" />
+	<meta property="og:url" content="" />
+	<meta property="og:site_name" content="" />
+	<meta property="og:description" content="" />
 	<meta name="twitter:title" content="" />
 	<meta name="twitter:image" content="" />
 	<meta name="twitter:url" content="" />
 	<meta name="twitter:card" content="" />
 
-	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet'
+		type='text/css'>
 	<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
-	
+
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
+
+	<link rel="stylesheet" href="css/Contador.css">
+
 	<!-- Icomoon Icon Fonts-->
 	<link rel="stylesheet" href="css/icomoon.css">
 	<!-- Bootstrap  -->
@@ -47,55 +53,34 @@
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
+
+	<script src="js/Contador.js"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
-	</head>
-	<body>
-		
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Timer Page</title>
+	<link rel="stylesheet" href="css/cont2.css">
+
+</head>
+
+<body>
+
 	<div class="fh5co-loader"></div>
-	
+
 	<div id="page">
-	<nav class="fh5co-nav" role="navigation"> 
-		<div class="container">
-			<div class="row">
-				<!--<div class="col-sm-4">
-					<div id="fh5co-logo"><a href="index.html">Mis 15 Años<strong>.</strong></a></div>
-				</div>
 
-				<div class="col-sm-8 text-right">
-					<ul>
-						<li class="active"><a href="index.html">Home</a></li>
-						<li><a href="about.html">Story</a></li>
-						<li class="has-dropdown">
-							<a href="services.html">Services</a>
-							<ul class="dropdown">
-								<li><a href="#">Web Design</a></li>
-								<li><a href="#">eCommerce</a></li>
-								<li><a href="#">Branding</a></li>
-								<li><a href="#">API</a></li>
-							</ul>
-						</li>
-						<li class="has-dropdown">
-							<a href="gallery.html">Gallery</a>
-							<ul class="dropdown">
-								<li><a href="#">HTML5</a></li>
-								<li><a href="#">CSS3</a></li>
-								<li><a href="#">Sass</a></li>
-								<li><a href="#">jQuery</a></li>
-							</ul>
-						</li>
-						<li><a href="contact.html">Contact</a></li>
-					</ul> -->
-				</div> 
-			</div>
-			
-		</div>
-	</nav>
+	</div>
+	</div>
 
-	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/xamira.jpg);" data-stellar-background-ratio="0.5">
+	</div>
+	<!--</nav> -->
+
+	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/xamira.jpg);"
+		data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -105,12 +90,54 @@
 							<h1>Mis 15 Años</h1>
 							<h1>Xamira Urbano</h1>
 							<h2>Tan solo Fatan</h2>
-							<div class="simply-countdown simply-countdown-one"></div>
+							<!--<div class="simply-countdown simply-countdown-one"></div>-->
+
+							<div class="contenedor">
+								<div class="contenido">
+									<div class="contador">
+										<div class="responsivo1">
+											<div class="cartel">
+												<div id="dias"></div>
+												<div class="h3">
+													<h3>Días</h3>
+												</div>
+												
+											</div>
+
+									
+
+											<div class="cartel">
+												<div id="horas"></div>
+												<div class="h3">
+													<h3>Horas</h3>
+												</div>
+											</div>
+										</div>
+										<div class="responsivo2">
+											<div class="cartel">
+												<div id="minutos"></div>
+												<div class="h3">
+													<h3>Minutos</h3>
+												</div>
+											</div>
+											<div class="cartel">
+												<div id="segundos"></div>
+												<div class="h3">
+													<h3>Segundos</h3>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+
 							<h2>Para este Dia tan especial</h2>
 							<h1>Dale play a mi canción Favorita</h1>
 							<audio controls autoplay loop>
-								<source src="Musica/quinceañera.mp3" type="audio/mpeg">
-							  </audio>
+								<source src="Musica/No Crezcas Mas.mp3" type="audio/mpeg">
+							</audio>
 							<!--<p><a href="#" class="btn btn-default btn-sm">Save the date</a></p>-->
 						</div>
 					</div>
@@ -135,7 +162,8 @@
 					</div>
 					<div class="desc-groom">
 						<h3>Santos Urbano Alcocer</h3>
-						<p>Porque hoy es un día de ilusión para ti, quiero entregarte mi corazón, que todos los deseos que pidas hoy se hagan realidad. Feliz 15 años.</p>
+						<p>Porque hoy es un día de ilusión para ti, quiero entregarte mi corazón, que todos los deseos
+							que pidas hoy se hagan realidad. Feliz 15 años.</p>
 					</div>
 				</div>
 				<p class="heart text-center"><i class="icon-heart2"></i></p>
@@ -145,7 +173,10 @@
 					</div>
 					<div class="desc-bride">
 						<h3>Violeta Osorio Laura</h3>
-						<p>Siempre tuviste mucha curiosidad por los quince y ahora tu espera llegó a su fin. Hoy cumples quince años, un día muy importante para ti. Y a partir de ahora, entras en una nueva etapa. Te deseo los mejores éxitos en tu vida. Sigue siendo buena hija, hermana y amiga. Felices 15 años.</p>
+						<p>Siempre tuviste mucha curiosidad por los quince y ahora tu espera llegó a su fin. Hoy cumples
+							quince años, un día muy importante para ti. Y a partir de ahora, entras en una nueva etapa.
+							Te deseo los mejores éxitos en tu vida. Sigue siendo buena hija, hermana y amiga. Felices 15
+							años.</p>
 					</div>
 				</div>
 			</div>
@@ -177,236 +208,22 @@
 										<span>Sabado 19</span>
 										<span>Octubre, 2024</span>
 									</div>
-									<p>Hay eventos en la vida que son muy especiales por si solos, pero poder compartirlos con quienes mas quiero los convierte en momentos únicos e inolvidables. </p>
-									<!--<h3>Inicio de Ceremonia</h3>--> 
+									<p>Hay eventos en la vida que son muy especiales por si solos, pero poder
+										compartirlos con quienes mas quiero los convierte en momentos únicos e
+										inolvidables. </p>
+									<!--<h3>Inicio de Ceremonia</h3>-->
 
 								</div>
 							</div>
-							<!--<div class="col-md-6 col-sm-6 text-center">
-								<div class="event-wrap animate-box">
-									<h3>Wedding Party</h3>
-									<div class="event-col">
-										<i class="icon-clock"></i>
-										<span>08:00 PM</span>
-									</div>
-									<div class="event-col">
-										<i class="icon-calendar"></i>
-										<span>Monday 28</span>
-										<span>November, 2016</span>
-									</div>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div> -->
+
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-<!--
-	<div id="fh5co-couple-story">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<span>We Love Each Other</span>
-					<h2>Our Story</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 col-md-offset-0">
-					<ul class="timeline animate-box">
-						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-1.jpg);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">First We Meet</h3>
-									<span class="date">December 25, 2015</span>
-								</div>
-								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</li>
-						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-2.jpg);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">First Date</h3>
-									<span class="date">December 28, 2015</span>
-								</div>
-								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</li>
-						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-3.jpg);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">In A Relationship</h3>
-									<span class="date">January 1, 2016</span>
-								</div>
-								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</li>
-			    	</ul>
-				</div>
-			</div>
-		</div>
-	</div> -->
-<!--
-	<div id="fh5co-gallery" class="fh5co-section-gray">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<span>Our Memories</span>
-					<h2>Wedding Gallery</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-				</div>
-			</div>
-			<div class="row row-bottom-padded-md">
-				<div class="col-md-12">
-					<ul id="fh5co-gallery-list">
-						
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-1.jpg); "> 
-						<a href="images/gallery-1.jpg">
-							<div class="case-studies-summary">
-								<span>14 Photos</span>
-								<h2>Two Glas of Juice</h2>
-							</div>
-						</a>
-					</li>
-					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-2.jpg); ">
-						<a href="#" class="color-2">
-							<div class="case-studies-summary">
-								<span>30 Photos</span>
-								<h2>Timer starts now!</h2>
-							</div>
-						</a>
-					</li>
 
 
-					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-3.jpg); ">
-						<a href="#" class="color-3">
-							<div class="case-studies-summary">
-								<span>90 Photos</span>
-								<h2>Beautiful sunset</h2>
-							</div>
-						</a>
-					</li>
-					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-4.jpg); ">
-						<a href="#" class="color-4">
-							<div class="case-studies-summary">
-								<span>12 Photos</span>
-								<h2>Company's Conference Room</h2>
-							</div>
-						</a>
-					</li>
-
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-5.jpg); ">
-							<a href="#" class="color-3">
-								<div class="case-studies-summary">
-									<span>50 Photos</span>
-									<h2>Useful baskets</h2>
-								</div>
-							</a>
-						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-6.jpg); ">
-							<a href="#" class="color-4">
-								<div class="case-studies-summary">
-									<span>45 Photos</span>
-									<h2>Skater man in the road</h2>
-								</div>
-							</a>
-						</li>
-
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-7.jpg); ">
-							<a href="#" class="color-4">
-								<div class="case-studies-summary">
-									<span>35 Photos</span>
-									<h2>Two Glas of Juice</h2>
-								</div>
-							</a>
-						</li>
-
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-8.jpg); "> 
-							<a href="#" class="color-5">
-								<div class="case-studies-summary">
-									<span>90 Photos</span>
-									<h2>Timer starts now!</h2>
-								</div>
-							</a>
-						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-9.jpg); ">
-							<a href="#" class="color-6">
-								<div class="case-studies-summary">
-									<span>56 Photos</span>
-									<h2>Beautiful sunset</h2>
-								</div>
-							</a>
-						</li>
-					</ul>		
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div id="fh5co-counter" class="fh5co-bg fh5co-counter" style="background-image:url(images/img_bg_5.jpg);">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row">
-				<div class="display-t">
-					<div class="display-tc">
-						<div class="col-md-3 col-sm-6 animate-box">
-							<div class="feature-center">
-								<span class="icon">
-									<i class="icon-users"></i>
-								</span>
-
-								<span class="counter js-counter" data-from="0" data-to="500" data-speed="5000" data-refresh-interval="50">1</span>
-								<span class="counter-label">Estimated Guest</span>
-
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 animate-box">
-							<div class="feature-center">
-								<span class="icon">
-									<i class="icon-user"></i>
-								</span>
-
-								<span class="counter js-counter" data-from="0" data-to="1000" data-speed="5000" data-refresh-interval="50">1</span>
-								<span class="counter-label">We Catter</span>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 animate-box">
-							<div class="feature-center">
-								<span class="icon">
-									<i class="icon-calendar"></i>
-								</span>
-								<span class="counter js-counter" data-from="0" data-to="402" data-speed="5000" data-refresh-interval="50">1</span>
-								<span class="counter-label">Events Done</span>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 animate-box">
-							<div class="feature-center">
-								<span class="icon">
-									<i class="icon-clock"></i>
-								</span>
-
-								<span class="counter js-counter" data-from="0" data-to="2345" data-speed="5000" data-refresh-interval="50">1</span>
-								<span class="counter-label">Hours Spent</span>
-
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
--->
 	<div id="fh5co-testimonial">
 		<div class="container">
 			<div class="row">
@@ -427,7 +244,11 @@
 										</figure>
 										<span>David Urbano</span>
 										<blockquote>
-											<p>"!Es tu Dia! Disfruta cada momento y no olvides que eres una persona especial y amada, Quince años de vida, de risas, de lágrimas, de aprendizajes y de crecimiento. Eres una Señorita increíble, con un corazón lleno de amor y una sonrisa que ilumina el mundo. Feliz cumpleaños, hermana."</p>
+											<p>"!Es tu Dia! Disfruta cada momento y no olvides que eres una persona
+												especial y amada, Quince años de vida, de risas, de lágrimas, de
+												aprendizajes y de crecimiento. Eres una Señorita increíble, con un
+												corazón lleno de amor y una sonrisa que ilumina el mundo. Feliz
+												cumpleaños, hermana."</p>
 										</blockquote>
 									</div>
 								</div>
@@ -438,7 +259,9 @@
 										</figure>
 										<span>Yorkira</span>
 										<blockquote>
-											<p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, at the coast of the Semantics, a large language ocean."</p>
+											<p>"Far far away, behind the word mountains, far from the countries Vokalia
+												and Consonantia, at the coast of the Semantics, a large language ocean."
+											</p>
 										</blockquote>
 									</div>
 								</div>
@@ -449,7 +272,9 @@
 										</figure>
 										<span>Luiggy<a href="#" class="twitter">Twitter</a></span>
 										<blockquote>
-											<p>"Far far away, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."</p>
+											<p>"Far far away, far from the countries Vokalia and Consonantia, there live
+												the blind texts. Separated they live in Bookmarksgrove right at the
+												coast of the Semantics, a large language ocean."</p>
 										</blockquote>
 									</div>
 								</div>
@@ -460,7 +285,7 @@
 			</div>
 		</div>
 	</div>
-<!--
+	<!--
 	<div id="fh5co-services" class="fh5co-section-gray">
 		<div class="container">
 			
@@ -533,21 +358,21 @@
 						<div class="col-md-4 col-sm-4">
 							<div class="form-group">
 								<label for="name" class="sr-only">Nombre</label>
-								<input type="name" class="form-control" id="name" placeholder="Nombre">
+								<input type="name" class="form-control" id="name" placeholder="Name">
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-4">
 							<div class="form-group">
 								<label for="email" class="sr-only">Apellido</label>
-								<input type="email" class="form-control" id="email" placeholder="Apellido">
+								<input type="email" class="form-control" id="email" placeholder="Email">
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-4">
-						<!-- --> 
-						<a href="https://wa.link/0d4ohl" target="_blank">
-						<button type="button" class="btn btn-default btn-block">Confirmar Asistencia</button>
-					    </a>	
-								
+							<!-- -->
+							<a href="https://wa.link/0d4ohl" target="_blank">
+								<button type="button" class="btn btn-default btn-block">Confirmar Asistencia</button>
+							</a>
+
 						</div>
 					</form>
 				</div>
@@ -561,10 +386,10 @@
 			<div class="row copyright">
 				<div class="col-md-12 text-center">
 					<p>
-						<small class="block">&copy; 2024 - Mis XV - Xamira Urbano Osorio</small> 
+						<small class="block">&copy; 2024 - Mis XV - Xamira Urbano Osorio</small>
 						<!--<small class="block">Designed by <a href="http://DURBANO/" target="_blank">DURBANO</a> Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small> -->
 					</p>
-				<!--	<p>
+					<!--	<p>
 						<ul class="fh5co-social-icons">
 							<li><a href="#"><i class="icon-twitter"></i></a></li>
 							<li><a href="#"><i class="icon-facebook"></i></a></li>
@@ -582,7 +407,7 @@
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
 	</div>
-	
+
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
@@ -604,28 +429,56 @@
 
 	<!-- // <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script> -->
 	<script src="js/simplyCountdown.js"></script>
+	<script src="js/Contador.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
 
+
+	<!--Script cont2-->
 	<script>
-    var d = new Date(new Date().getTime() + 200 * 120 * 120 * 2000);
+		var target_mili_sec = new Date("Oct 19, 2024 18:00:0").getTime();
+		function timer() {
+			var now_mili_sec = new Date().getTime();
+			var remaining_sec = Math.floor((target_mili_sec - now_mili_sec) / 1000);
 
-    // default example
-    simplyCountdown('.simply-countdown-one', {
-        year: d.getFullYear(),
-        month: d.getMonth() + 1,
-        day: d.getDate()
-    });
+			var day = Math.floor(remaining_sec / (3600 * 24));
+			var hour = Math.floor((remaining_sec % (3600 * 24)) / 3600);
+			var min = Math.floor((remaining_sec % 3600) / 60);
+			var sec = Math.floor(remaining_sec % 60);
 
-    //jQuery example
-    $('#simply-countdown-losange').simplyCountdown({
-        year: d.getFullYear(),
-        month: d.getMonth() + 1,
-        day: d.getDate(),
-        enableUtc: false
-    });
-</script>
+			document.querySelector("#day").innerHTML = day;
+			document.querySelector("#hour").innerHTML = hour;
+			document.querySelector("#min").innerHTML = min;
+			document.querySelector("#sec").innerHTML = sec;
+		}
 
-	</body>
+		setInterval(timer, 1000); //1000 it means 1 sec
+
+	</script>
+
+
+
+
+
+	<script>
+		var d = new Date(new Date().getTime() + 110 * 150 * 120 * 2000);
+		//var d = new Date("set 15, 2030 15:37:25").getTime();
+		// default example
+		simplyCountdown('.simply-countdown-one', {
+			year: d.getFullYear(),
+			month: d.getMonth() + 1,
+			day: d.getDate()
+		});
+
+		//jQuery example
+		$('#simply-countdown-losange').simplyCountdown({
+			year: d.getFullYear(),
+			month: d.getMonth() + 1,
+			day: d.getDate(),
+			enableUtc: false
+		});
+	</script>
+
+</body>
+
 </html>
-
