@@ -823,6 +823,20 @@ form label {
   font-weight: normal !important;
 }
 
+#fh5co-header {
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* o cualquier otro valor que desees */
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 480px) {
+  #fh5co-header {
+    background-size: 100% 100%; /* o cualquier otro valor que desees */
+    height: 50vh; /* o cualquier otro valor que desees */
+  }
+}
+
 #fh5co-header .display-tc,
 #fh5co-counter .display-tc,
 .fh5co-cover .display-tc {
