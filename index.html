@@ -79,7 +79,7 @@
 	</div>
 	<!--</nav> -->
 
-	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/xamira.jpg);"
+	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/xami2.JPG);"
 		data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
@@ -90,7 +90,7 @@
 							<h1>Mis 15 Años</h1>
 							<h1>Xamira Urbano</h1>
 							<h2>Tan solo Fatan</h2>
-							<!--<div class="simply-countdown simply-countdown-one"></div>-->
+						<!----><div class="simply-countdown simply-countdown-one"></div>
 
 							<div class="contenedor">
 								<div class="contenido">
@@ -100,20 +100,15 @@
 												<div id="dias"></div>
 												<div class="h3">
 													<h3>Días</h3>
-												</div>
-												
+												</div>											
 											</div>
-
-									
-
 											<div class="cartel">
 												<div id="horas"></div>
 												<div class="h3">
 													<h3>Horas</h3>
 												</div>
 											</div>
-										</div>
-										<div class="responsivo2">
+
 											<div class="cartel">
 												<div id="minutos"></div>
 												<div class="h3">
@@ -127,6 +122,20 @@
 												</div>
 											</div>
 										</div>
+									<!--	<div class="responsivo2">
+											<div class="cartel">
+												<div id="minutos"></div>
+												<div class="h3">
+													<h3>Minutos</h3>
+												</div>
+											</div>
+											<div class="cartel">
+												<div id="segundos"></div>
+												<div class="h3">
+													<h3>Segundos</h3>
+												</div>
+											</div>
+										</div>-->
 									</div>
 								</div>
 							</div>
@@ -461,12 +470,12 @@
 
 
 	<script>
-		var d = new Date(new Date().getTime() + 110 * 150 * 120 * 2000);
+		var d = new Date(new Date("Oct 19, 2024 18:00:0").getTime());
 		//var d = new Date("set 15, 2030 15:37:25").getTime();
 		// default example
 		simplyCountdown('.simply-countdown-one', {
 			year: d.getFullYear(),
-			month: d.getMonth() + 1,
+			month: d.getMonth() +1,
 			day: d.getDate()
 		});
 
