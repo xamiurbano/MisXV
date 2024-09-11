@@ -830,10 +830,11 @@ form label {
 }
 
 /* Estilos para dispositivos móviles */
-@media (max-width: 480px) {
+@media (max-width: 1500px) {
   #fh5co-header {
     background-size: 100% 100%; /* o cualquier otro valor que desees */
-    height: 50vh; /* o cualquier otro valor que desees */
+    height: 99vh; /* o cualquier otro valor que desees */
+    width: 70vh; /* o cualquier otro valor que desees */
   }
 }
 
