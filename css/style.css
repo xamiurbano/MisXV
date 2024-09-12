@@ -822,21 +822,21 @@ h1, h2, h3, h4, h5, h6, figure {
 form label {
   font-weight: normal !important;
 }
-
+/*
 #fh5co-header {
   background-size: cover;
   background-position: center;
-  height: 100vh; /* o cualquier otro valor que desees */
-}
+  height: 100vh; /* o cualquier otro valor que desees 
+}*/
 
-/* Estilos para dispositivos móviles */
+/* Estilos para dispositivos móviles 
 @media (max-width: 1500px) {
   #fh5co-header {
-    background-size: 100% 100%; /* o cualquier otro valor que desees */
-    height: 99vh; /* o cualquier otro valor que desees */
-    width: 70vh; /* o cualquier otro valor que desees */
+    background-size: 100% 100%; /* o cualquier otro valor que desees 
+    height: 100vh; /* o cualquier otro valor que desees 
+    width: 99vh; /* o cualquier otro valor que desees
   }
-}
+} */
 
 #fh5co-header .display-tc,
 #fh5co-counter .display-tc,
